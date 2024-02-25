@@ -1,0 +1,26 @@
+[
+  {
+    "ContainingType": "CountryGwp.Controllers.CountryGwpController",
+    "Method": "Post",
+    "RelativePath": "server/api/gwp/avg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryGwpRequest",
+        "Type": "CountryGwp.Models.CountryGwpRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CountryGwp.Models.CountryGwpResponse, CountryGwp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
